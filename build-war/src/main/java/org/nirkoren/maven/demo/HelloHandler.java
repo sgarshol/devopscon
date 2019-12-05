@@ -4,7 +4,8 @@ public class HelloHandler {
 
 	public String sayHello() {
 		String hello = "Hi there, Is it working from your laptop?";
-		return hello;
+		String yes = "Oh, yes!";
+		return hello + "\n" + yes;
 	}
 
 }
